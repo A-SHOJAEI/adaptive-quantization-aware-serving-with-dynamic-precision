@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.eggs/
+*.egg-info/
+
+# Build
+dist/
+build/
+
+# Testing
+.tox/
+
+# MLflow
+mlruns/
+
+# Data & model artifacts
+data/
+checkpoints/*.pth
+*.pt
+*.log
+
+# Environment
+.env
+
+# Weights & Biases
+wandb/
+
+# Coverage
+.coverage
+htmlcov/
+
+# MLflow database
+mlflow.db
+
+# Model files in models directory
+models/*.pth
